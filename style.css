@@ -1,0 +1,52 @@
+.header-font {
+  font-family: 'Lobster', sans-serif;
+}
+
+.github-link {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 1rem;;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.contact img {
+  border-radius: 1%;
+  /* filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.1)); */
+}
+
+.contact p {
+  font-size: 1rem;
+}
+
+.footer {
+  text-align: center;
+  color: grey;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anson He Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .nav-pills .nav-link {
+          color: black;
+          background-color: transparent;
+      }
+
+      .nav-pills .nav-link.active {
+          color: white;
+          background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3">
+
+          <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"></svg>
+            <span class="fs-2 header-font">Anson He Portfolio</span>
+            <a class="github-link" href="https://github.com/ansonhe97"><img src="./images/github.png" alt="github logo" width="30px"></a>
+          </div>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#hero" class="nav-link active" aria-current="page">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <section class="hero" id="hero">
+      <div class="container px-4 mt-5 text-center">
+        <img
+          class="d-block mx-auto mb-4 profile"
+          src="./images/profile.png"
+          alt="profile image"
+          height="200px"
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">
+          Ex-hardware Product Manager /
+          <span class="gradient-background">MSCS</span> @ NEU Vancouver 👨‍💻
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead">
+            I'm an experienced Product Manager in IoT and Consumer Electronics
+            with a 3-year track record. Skilled in translating customer needs
+            into actionable requirements and eventually launching desirable
+            products. <br />
+            <br />
+            Currently pursuing a MS Computer Science program at Northeastern
+            University to enhance skills for future products/career
+            opportunities. I aspire to secure a software development engineer
+            internship at a tech giant dedicated to making a positive global
+            impact.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container px-4 py-1" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Technical Skills</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('images/coding.jpg');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-1 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Python, C, Java, CSS, HTML
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <span
+                      class="badge bg-primary-subtle border border-primary-subtle text-primary-emphasis rounded-pill"
+                      >Programming Languages</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('images/framework.jpg');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  OOP, Git, Bootstrap
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <span
+                      class="badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill"
+                      >Skills</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('images/product.jpg');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-1 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Product Management, IoT, Consumer Electronics
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <span
+                      class="badge bg-info-subtle border border-info-subtle text-info-emphasis rounded-pill"
+                      >Managerment</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container py-3">
+        <h2 class="pb-4 border-bottom">Get In Touch</h2>
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-2">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="./images/hooked.jpg" class="d-block mx-lg-auto img-fluid shadow-lg" alt="hooked" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h3 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">Interested?</h1>
+              <p class="lead pb-3">Are you intrigued by the possibilities of what we could achieve together or simply interested in exchanging ideas and insights? I warmly invite you to connect with me. Whether you're seeking collaboration, advice, or just a conversation about shared interests, I’m here to engage.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a href="https://www.linkedin.com/in/anson-he-5b3960131/" class="btn btn-dark btn-lg px-4 me-md-2" role="button">LinkedIn</a>
+                <a href="mailto:ansonhe1997@gmail.com" class="btn btn-light btn-lg px-4" role="button">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container footer">
+      <p class="copyright">© Anson He. All rights reserved.</p>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
